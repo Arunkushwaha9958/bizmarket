@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — BizMarket</title>
+<meta name="description" content="Get in touch with BizMarket to start your social media, SEO, PPC or website design project.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <div class="ticker" aria-hidden="true">
+    <div class="ticker-track">
+      <span>SOCIAL MEDIA MARKETING</span><span>SEO</span><span>PAY-PER-CLICK</span><span>WEBSITE DESIGN</span>
+      <span>SOCIAL MEDIA MARKETING</span><span>SEO</span><span>PAY-PER-CLICK</span><span>WEBSITE DESIGN</span>
+      <span>SOCIAL MEDIA MARKETING</span><span>SEO</span><span>PAY-PER-CLICK</span><span>WEBSITE DESIGN</span>
+    </div>
+  </div>
+  <nav class="nav-row">
+    <a href="index.html" class="logo"><span class="sq"></span>BIZMARKET</a>
+    <ul class="nav-main">
+      <li><a href="index.html" class="nav-link">Home</a></li>
+      <li><a href="about.html" class="nav-link">About Us</a></li>
+      <li class="has-dropdown">
+        <a href="#" class="nav-link">Services</a>
+        <ul class="dropdown">
+          <li><a href="smm.html"><span class="hazard-tag"></span>Social Media Marketing</a></li>
+          <li><a href="seo.html"><span class="hazard-tag"></span>SEO Services</a></li>
+          <li><a href="web-design.html"><span class="hazard-tag"></span>Website Design</a></li>
+          <li><a href="ppc.html"><span class="hazard-tag"></span>Pay-Per-Click</a></li>
+        </ul>
+      </li>
+      <li><a href="contact.html" class="nav-link active">Contact</a></li>
+      <li><a href="blog.html" class="nav-link">Blog</a></li>
+      <li class="nav-cta"><a href="contact.html" class="btn btn-primary">Get Started Now</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+  </nav>
+</header>
+
+<section class="page-hero">
+  <div class="container">
+    <div class="eyebrow">Get In Touch</div>
+    <h1>Tell us what you're trying to grow.</h1>
+    <p class="lede">Share a few details and a strategist will get back to you within one business day — no automated sales calls.</p>
+  </div>
+  <div class="torn-edge" aria-hidden="true">
+    <svg viewBox="0 0 1200 40" preserveAspectRatio="none"><path fill="#FFFFFF" d="M0,40 L0,10 L40,25 L80,5 L120,22 L160,8 L200,28 L240,4 L280,20 L320,9 L360,26 L400,6 L440,24 L480,10 L520,30 L560,5 L600,22 L640,8 L680,27 L720,4 L760,21 L800,9 L840,25 L880,6 L920,23 L960,10 L1000,28 L1040,5 L1080,22 L1120,8 L1160,26 L1200,10 L1200,40 Z"/></svg>
+  </div>
+</section>
+
+<section>
+  <div class="container form-grid">
+    <div>
+      <div class="eyebrow">Project Details</div>
+      <h2>Start a conversation</h2>
+      <form id="contactForm" novalidate>
+        <div class="grid grid-2">
+          <div class="field">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email" placeholder="you@company.com" required>
+          </div>
+        </div>
+        <div class="grid grid-2">
+          <div class="field">
+            <label for="phone">Phone Number</label>
+            <input type="tel" id="phone" name="phone" placeholder="+91 00000 00000">
+          </div>
+          <div class="field">
+            <label for="service">Service Needed</label>
+            <select id="service" name="service">
+              <option value="">Select a service</option>
+              <option value="smm">Social Media Marketing</option>
+              <option value="seo">SEO Services</option>
+              <option value="web-design">Website Design</option>
+              <option value="ppc">Pay-Per-Click</option>
+              <option value="other">Not sure yet</option>
+            </select>
+          </div>
+        </div>
+        <div class="field">
+          <label for="message">Project Details</label>
+          <textarea id="message" name="message" placeholder="Tell us about your business and what you're hoping to achieve" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-dark">Send Message</button>
+        <div id="formStatus" role="status"></div>
+        <p class="form-note">This form doesn't send email yet — connect it to your backend or a form service to go live.</p>
+      </form>
+    </div>
+
+    <div>
+      <div class="info-card">
+        <h4>Studio Address</h4>
+        <p>BizMarket Digital<br>Sector 62, Noida<br>Uttar Pradesh, India</p>
+      </div>
+      <div class="info-card">
+        <h4>Email</h4>
+        <p>hello@bizmarket.example</p>
+      </div>
+      <div class="info-card">
+        <h4>Phone</h4>
+        <p>+91 00000 00000</p>
+      </div>
+      <div class="info-card">
+        <h4>Office Hours</h4>
+        <p>Monday – Saturday, 10:00 AM – 7:00 PM IST</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="footer-logo">BIZMARKET</div>
+      <p>BizMarket is a digital marketing studio helping brands grow through social, search and paid channels — built for founders who want a partner, not a vendor.</p>
+      <div class="social-row" aria-label="Social links">
+        <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24" fill="none" stroke="#FFC93C" stroke-width="1.6"><circle cx="7" cy="12" r="2.6"/><circle cx="18" cy="6" r="2.2"/><circle cx="18" cy="18" r="2.2"/><line x1="9.2" y1="10.8" x2="15.8" y2="7.2"/><line x1="9.2" y1="13.2" x2="15.8" y2="16.8"/></svg></a>
+        <a href="#" aria-label="X / Twitter"><svg viewBox="0 0 24 24" fill="none" stroke="#FFC93C" stroke-width="1.6"><path d="M4 18 L10 10 L14 14 L20 6"/><path d="M15 6 h5 v5"/></svg></a>
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24" fill="none" stroke="#FFC93C" stroke-width="1.6"><rect x="2.5" y="2.5" width="19" height="19"/><circle cx="12" cy="12" r="4.5"/><circle cx="17.2" cy="6.8" r="1"/></svg></a>
+      </div>
+    </div>
+    <div>
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Services</h4>
+      <ul>
+        <li><a href="smm.html">Social Media Marketing</a></li>
+        <li><a href="seo.html">SEO Services</a></li>
+        <li><a href="web-design.html">Website Design</a></li>
+        <li><a href="ppc.html">Pay-Per-Click</a></li>
+      </ul>
+    </div>
+    <div>
+      <h4>Let's Connect</h4>
+      <p>Noida, India<br>hello@bizmarket.example<br>+91 00000 00000</p>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© <span id="year"></span> BizMarket. All rights reserved.</span>
+    <span>Made for brands that want to be seen.</span>
+  </div>
+</footer>
+
+<a class="wa-float" href="https://wa.me/910000000000" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+  <svg viewBox="0 0 24 24" fill="none" stroke="#FFC93C" stroke-width="1.7"><path d="M6 4 h12 v13 l-4-2 h-4 l-4 2 z"/><line x1="8.5" y1="9" x2="15.5" y2="9"/><line x1="8.5" y1="12" x2="13" y2="12"/></svg>
+</a>
+
+<script src="main.js"></script>
+</body>
+</html>
