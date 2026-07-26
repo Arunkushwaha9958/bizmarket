@@ -62,7 +62,7 @@ p{ margin:0 0 1em; color: var(--ink-soft); }
   *{ animation-duration:0.001ms !important; animation-iteration-count:1 !important; transition-duration:0.001ms !important; scroll-behavior:auto !important; }
 }
 
-.logo-img{ height:34px; width:auto; display:block; mix-blend-mode: multiply; }
+.logo-img{ height:75px; width:auto; display:block; mix-blend-mode: multiply; }
 /* ---------- eyebrow / small label ---------- */
 .eyebrow{
   font-family: var(--font-body);
